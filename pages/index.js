@@ -170,5 +170,5 @@ export const getStaticProps = async () => {
     },
   };
 };
-export const runtime = 'edge'
+export const runtime = 'experimental-edge'
 export default Home;
