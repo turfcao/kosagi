@@ -13,16 +13,18 @@ function Pricing({ data }) {
           <div className="section row -mt-10 justify-center md:mt-0">
             {plans.map((plan, index) => (
               <div
-                className={`col-12 md:col-4 ${
-                  !plan.recommended ? "lg:px-0" : "col-recommended"
-                }`}
+                className={`col-12 md:col-4 ${!plan.recommended ? "lg:px-0" : "col-recommended"
+                  }`}
                 key={plan.title + index}
               >
                 <div className="card text-center">
                   <h4>{plan.title}</h4>
                   <div className="mt-5">
-                    <span className="text-5xl text-dark">${plan.price}</span>
-                    <span>/ {plan.type}</span>
+                    初期費用：<span className="text-1xl text-dark">{plan.price}</span>万円
+
+                  </div>
+                  <div className="mt-5">
+                    <span className="text-1xl text-dark">月額費用：{plan.price}万円</span>
                   </div>
                   <h5 className="mt-2 font-normal text-text">
                     {plan.subtitle}
@@ -35,9 +37,8 @@ function Pricing({ data }) {
                     ))}
                   </ul>
                   <Link
-                    className={`btn mt-5 ${
-                      plan.recommended ? "btn-primary" : "btn-outline-primary"
-                    }`}
+                    className={`btn mt-5 ${plan.recommended ? "btn-primary" : "btn-outline-primary"
+                      }`}
                     href={plan.button.link}
                     rel={plan.button.rel}
                   >

@@ -1,9 +1,9 @@
 ---
-title: Pricing
+title: 料金プラン
 layout: pricing
 draft: false
 plans:
-- title: Basic Plan
+- title: スタートアッププラン
   subtitle: Best For Small Individuals
   price: 49
   type: month
@@ -12,10 +12,10 @@ plans:
     - Customs Clearance
     - Time-Critical Services
   button:
-    label: Get started for free
+    label: このプランでお問合せ・ご相談
     link: "/contact"
 
-- title: Professional Plan
+- title: ミドルプラン
   subtitle: Best For Professionals
   price: 69
   type: month
@@ -27,10 +27,10 @@ plans:
     - Cloud Service
     - Best Dashboard
   button:
-    label: Get started
+    label: このプランでお問合せ・ご相談
     link: "/contact"
 
-- title: Business Plan
+- title: エンタープライズプラン
   subtitle: Best For Large Individuals
   price: 99
   type: month
@@ -39,7 +39,7 @@ plans:
     - Customs Clearance
     - Time-Critical Services
   button:
-    label: Get started
+    label: このプランでお問合せ・ご相談
     link: "/contact"
 
 call_to_action:

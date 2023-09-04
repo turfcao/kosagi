@@ -15,12 +15,12 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Lato:wght@300;400;700",
+      "primary": "Noto+Sans+JP:wght@300;400;700",
       "primary_type": "sans-serif"
     },
     "font_size": {
       "base": "16",
-      "scale": "1.250"
+      "scale": "1.100"
     }
   }
 }

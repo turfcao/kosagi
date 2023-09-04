@@ -14,6 +14,7 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
         <div className="container">
           <div className="row">
             <article className="col-12 mx-auto text-center md:col-8">
+            {markdownify(title, "h1", "h1 mb-6 mt-6 text-left")}
               {image && (
                 <Image
                   src={image}
@@ -25,8 +26,6 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
                   className="rounded-lg"
                 />
               )}
-              {markdownify(title, "h1", "h2 mb-6 mt-6 text-left")}
-
               <div className="content mb-16 text-left">
                 <MDXRemote {...mdxContent} components={shortcodes} />
               </div>

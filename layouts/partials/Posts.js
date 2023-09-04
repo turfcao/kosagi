@@ -32,8 +32,7 @@ const Posts = ({ posts }) => {
             </h2>
             <p className="text-text">
               {plainify(
-                posts[0].content?.slice(0, Number(summary_length)),
-                "div"
+                posts[0].frontmatter.description
               )}
             </p>
             <Link
@@ -41,7 +40,7 @@ const Posts = ({ posts }) => {
               href={`/${blog_folder}/${posts[0].slug}`}
               rel=""
             >
-              Read More
+              もっと読む
             </Link>
           </div>
         </div>
@@ -71,7 +70,7 @@ const Posts = ({ posts }) => {
             href={`/${blog_folder}/${post.slug}`}
             rel=""
           >
-            Read More
+            もっと読む
           </Link>
         </div>
       ))}

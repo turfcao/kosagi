@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "コサギ株式会社 – 海外・越境EC等の多彩なＥビジネスに対応可能なECサイト構築パッケージ",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -12,17 +12,17 @@
   "settings": {
     "pagination": 4,
     "summary_length": 200,
-    "blog_folder": "blogs"
+    "blog_folder": "works"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "お問い合わせ",
     "link": "/contact"
   },
 
   "params": {
-    "contact_form_action": "",
+    "contact_form_action": "mailto:shin@kosagi.co.jp",
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
     "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"

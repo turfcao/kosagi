@@ -1,24 +1,16 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "制作実績",
+      "url": "/works"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
-    },
-    {
-      "name": "Pricing",
+      "name": "料金プラン",
       "url": "/pricing"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "会社紹介",
+      "url": "/about"
     }
   ],
   "footer": [
