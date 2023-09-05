@@ -34,6 +34,6 @@
     "meta_description": "A SAAS template for nextjs"
   },
 
-  "runtime": "experimental-edge"
+  "runtime": "edge"
 
 }
