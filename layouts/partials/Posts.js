@@ -34,4 +34,14 @@ const Posts = ({ posts }) => {
   );
 };
 
+export const nextConfig = {
+  runtime: 'edge',
+  experimental: {
+    runtime: 'experimental-edge',
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+}
+
+
 export default Posts;

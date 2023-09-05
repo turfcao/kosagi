@@ -97,4 +97,14 @@ const Base = ({
   );
 };
 
+export const nextConfig = {
+  runtime: 'edge',
+  experimental: {
+    runtime: 'experimental-edge',
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+}
+
+
 export default Base;

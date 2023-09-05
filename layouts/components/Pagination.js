@@ -139,7 +139,13 @@ const Pagination = ({ section, currentPage, totalPages }) => {
 };
 
 export const nextConfig = {
-  runtime: 'edge'
+  runtime: 'edge',
+  experimental: {
+    runtime: 'experimental-edge',
+  },
+  reactStrictMode: true,
+  swcMinify: true,
 }
+
 
 export default Pagination;
