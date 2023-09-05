@@ -8,7 +8,7 @@ info:
     - title: 事業所名
       content: コサギ株式会社（KOSAGI, Inc.）
     - title: 代表取締役	
-      content: ジョシン
+      content: ジョ シン
     - title: 設立		
       content: 2023年7月
     - title: 所在地		

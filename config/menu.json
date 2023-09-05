@@ -15,49 +15,29 @@
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "会社紹介",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "会社概要",
+          "url": "/about"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "制作実績",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "公開実績",
+          "url": "/works"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "サービス",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
-        },
-        {
-          "text": "Privacy Policy",
-          "url": "#"
-        },
-        {
-          "text": "Terms & Conditions",
-          "url": "#"
+          "text": "料金プラン",
+          "url": "/pricing"
         }
       ]
     }

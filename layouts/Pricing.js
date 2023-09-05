@@ -3,7 +3,7 @@ import Cta from "./components/Cta";
 
 function Pricing({ data }) {
   const {
-    frontmatter: { title, plans, call_to_action },
+    frontmatter: { title, price_1_pre, price_2_pre, man, plans, call_to_action },
   } = data;
   return (
     <>
@@ -18,24 +18,17 @@ function Pricing({ data }) {
                 key={plan.title + index}
               >
                 <div className="card text-center">
-                  <h4>{plan.title}</h4>
-                  <div className="mt-5">
-                    初期費用：<span className="text-1xl text-dark">{plan.price}</span>万円
-
-                  </div>
-                  <div className="mt-5">
-                    <span className="text-1xl text-dark">月額費用：{plan.price}万円</span>
-                  </div>
-                  <h5 className="mt-2 font-normal text-text">
+                  <h2>{plan.title}</h2>
+                  <h6 className="mt-2 font-normal text-text">
                     {plan.subtitle}
-                  </h5>
-                  <ul className="mt-5">
-                    {plan.features.map((feature, index) => (
-                      <li className="mb-[10px] leading-5" key={index}>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
+                  </h6>
+                  <div className="mt-5">
+                    {price_1_pre}<span className="text-3xl text-dark">{plan.price_1}</span>{plan.price_1 >= 0 ? man : ""}
+                  </div>
+                  <div className="mt-5">
+                    {price_2_pre}<span className="text-3xl text-dark">{plan.price_2}</span>{man}
+                  </div>
+
                   <Link
                     className={`btn mt-5 ${plan.recommended ? "btn-primary" : "btn-outline-primary"
                       }`}
@@ -44,13 +37,19 @@ function Pricing({ data }) {
                   >
                     {plan.button.label}
                   </Link>
+                  <ul className="mt-5">
+                    {plan.features.map((feature, index) => (
+                      <li className="mb-[10px] leading-5" key={index}>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Cta cta={call_to_action} />
     </>
   );
 }

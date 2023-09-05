@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
-          <div className="content col-12 md:col-12 lg:col-5">
+          <div className="content col-12 md:col-12 lg:col-12">
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p", "mt-4")}
             <div className="mt-6 border-t border-gray-100">
@@ -21,7 +21,6 @@ const Contact = ({ data }) => {
                     <dt className="text-sm font-medium leading-6 text-gray-900">{markdownify(contact.title, "strong", "text-dark")}</dt>
                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0 whitespace-pre-line">{markdownify(contact.content)}</dd>
                   </div>
-
                 </dl>
               ))}
             </div>

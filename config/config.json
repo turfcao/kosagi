@@ -6,7 +6,7 @@
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "コサギ株式会社"
   },
 
   "settings": {
@@ -24,8 +24,8 @@
   "params": {
     "contact_form_action": "mailto:shin@kosagi.co.jp",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "海外・越境EC等の多彩なＥビジネスに対応可能なECサイト構築パッケージ",
+    "copyright": "Copyright © Kosagi, Inc."
   },
 
   "metadata": {

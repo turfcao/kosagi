@@ -1,7 +1,7 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  title: 海外にビジネス展開する方法
+  content: 海外にビジネスを展開しようと考えているけれど、ネットショップを構築するのはなんだか難しそうだし、具体的になにをしたらインターネットビジネスを始められるのかを知りたい人はインターネットビジネスが急成長している今、かなり多いと思います。
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
@@ -82,11 +82,11 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Webサイト、アプリケーションのご相談
+  content: エンジニアが直接窓口対応いたします。ご相談ベースからお問い合わせいただけます。
   image: '/images/cta.svg'
   button:
     enable: true
-    label: "Contact Us"
+    label: "お問い合わせはこちら"
     link: "/contact"
 ---

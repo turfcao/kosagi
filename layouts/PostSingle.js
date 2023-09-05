@@ -5,7 +5,7 @@ import Image from "next/image";
 import Base from "./Baseof";
 
 const PostSingle = ({ frontmatter, content, mdxContent }) => {
-  let { description, title, image } = frontmatter;
+  let { description, title, image, homepage } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   return (
@@ -14,7 +14,6 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
         <div className="container">
           <div className="row">
             <article className="col-12 mx-auto text-center md:col-8">
-            {markdownify(title, "h1", "h1 mb-6 mt-6 text-left")}
               {image && (
                 <Image
                   src={image}
@@ -26,6 +25,8 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
                   className="rounded-lg"
                 />
               )}
+              {markdownify(title, "h1", "h1 mb-6 mt-6 text-left")}
+              <h6 className="h6 mb-6 mt-6 text-left"><a href={homepage}>{homepage}</a></h6>
               <div className="content mb-16 text-left">
                 <MDXRemote {...mdxContent} components={shortcodes} />
               </div>

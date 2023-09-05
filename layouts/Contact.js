@@ -11,65 +11,68 @@ const Contact = ({ data }) => {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
-          <div className="col-12 md:col-6 lg:col-7">
+          <div className="col-12 md:col-12 lg:col-12">
             <form
               className="contact-form"
               method="POST"
               action={contact_form_action}
             >
               <div className="mb-3">
+                <label className="form-label">ご依頼内容</label>
                 <input
                   className="form-input w-full rounded"
                   name="name"
                   type="text"
-                  placeholder="Name"
+                  placeholder="例：お名前"
                   required
                 />
               </div>
               <div className="mb-3">
+                <label className="form-label">ご担当者名</label>
+                <input
+                  className="form-input w-full rounded"
+                  name="name"
+                  type="text"
+                  placeholder="例：お名前"
+                  required
+                />
+              </div>
+              <div className="mb-3">
+                <label className="form-label">会社名</label>
+                <input
+                  className="form-input w-full rounded"
+                  name="name"
+                  type="text"
+                  placeholder="例：株式会社 ◯◯"
+                  required
+                />
+              </div>
+              <div className="mb-3">
+              <label className="form-label">メールアドレス</label>
                 <input
                   className="form-input w-full rounded"
                   name="email"
                   type="email"
-                  placeholder="Your email"
+                  placeholder="例：email@kosagi.co.jp"
                   required
                 />
               </div>
               <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="subject"
-                  type="text"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div className="mb-3">
+              <label className="form-label">お問い合わせ内容</label>
                 <textarea
                   className="form-textarea w-full rounded-md"
                   rows="7"
-                  placeholder="Your message"
+                  placeholder="例：ご依頼内容をご記入ください。"
                 />
               </div>
               <button type="submit" className="btn btn-primary">
-                Send Now
+                確認画面へ
               </button>
             </form>
           </div>
-          <div className="content col-12 md:col-6 lg:col-5">
-            {markdownify(info.title, "h4")}
-            {markdownify(info.description, "p", "mt-4")}
-            <ul className="contact-list mt-5">
-              {info.contacts.map((contact, index) => (
-                <li key={index}>
-                  {markdownify(contact, "strong", "text-dark")}
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 

@@ -2,42 +2,46 @@
 title: 料金プラン
 layout: pricing
 draft: false
+price_1_pre: "初期費用："
+price_2_pre: "月額費用："
+man: 万円～
 plans:
 - title: スタートアッププラン
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+  subtitle:  EC事業立ち上げ
+  price_1: 0
+  price_2: 1
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - 参考EC売上規模0円～
+    - マーケティング支援体制
   button:
     label: このプランでお問合せ・ご相談
     link: "/contact"
 
 - title: ミドルプラン
-  subtitle: Best For Professionals
-  price: 69
+  subtitle: 売上が伸びてきてカスタマイズの必要性
+  price_1: 100
+  price_2: 4
   type: month
   recommended: true
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
+    - 参考EC売上規模1,000万円～/月
+    - マーケティング支援体制
+    - 案件専任担当PM
   button:
     label: このプランでお問合せ・ご相談
     link: "/contact"
 
 - title: エンタープライズプラン
-  subtitle: Best For Large Individuals
-  price: 99
+  subtitle: ECの売上を最大化する為の施策
+  price_1: お見積り
+  price_2: 10
   type: month
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - 参考EC売上規模5,000万円～/月
+    - マーケティング支援体制
+    - 案件専任担当PM
+    - 24時間365日のサポート
+    - エンハンス対応(継続的な改修)
   button:
     label: このプランでお問合せ・ご相談
     link: "/contact"
