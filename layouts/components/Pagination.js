@@ -138,4 +138,8 @@ const Pagination = ({ section, currentPage, totalPages }) => {
   );
 };
 
+export const nextConfig = {
+  runtime: 'edge'
+}
+
 export default Pagination;

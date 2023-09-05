@@ -32,7 +32,5 @@
     "meta_author": "Themefisher",
     "meta_image": "",
     "meta_description": "A SAAS template for nextjs"
-  },
-
-  "runtime": "edge"
+  }
 }
