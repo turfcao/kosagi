@@ -57,3 +57,4 @@ export const nextConfig = {
   swcMinify: true,
 }
 
+export default Article;
