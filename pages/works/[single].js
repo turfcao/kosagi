@@ -49,7 +49,7 @@ export const getStaticProps = async ({ params }) => {
     },
   };
 };
-const nextConfig = {
+export const nextConfig = {
   experimental: {
     runtime: 'experimental-edge',
   },
@@ -57,4 +57,3 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
